@@ -37,4 +37,4 @@ def git_parameter(parser, xml_parent, data):
      if isinstance(notifier, str):
        XML.SubElement(data, attr).text = value
      else:
-      XML.SubElement(notifier, attr).text = str(value).lower()
+      XML.SubElement(notifier, attr).text = str(value)
